@@ -1,3 +1,43 @@
-.left-section {
-    background-color: firebrick;
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left-section {
+        background-color: firebrick;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        gap: 15px;
+
+        .hamburger-img {
+            height: 30px;
+        }
+
+        .youtube-img {
+            height: 20px;
+        }
+    }
+
+    .middle-section {
+        border: 1px solid #cccccc;
+
+        .search-input {
+            border: 0;
+        }
+
+        .search-button{
+            border: 0;
+
+            .search-img {
+                width: 15px;
+            }
+        }
+        
+    }
 }
