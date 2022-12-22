@@ -40,4 +40,14 @@
         }
         
     }
+
+    .right-section {
+        margin-right: 50px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .services {
+            height: 24px;
+        }
+    }
 }

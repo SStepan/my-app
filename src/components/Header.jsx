@@ -2,6 +2,9 @@ import './Header.scss'
 import HamburgerImg from '../images/hamburger-menu.svg'
 import YoutubeImg from '../images/youtube-logo.svg'
 import SearchImg from '../images/search.svg'
+import UploadImg from '../images/upload.svg'
+import AppsImg from '../images/youtube-apps.svg'
+import NotificationsImg from '../images/notifications.svg'
 
 export default function Header() {
     return (
@@ -20,9 +23,9 @@ export default function Header() {
             </div>
 
             <div className='right-section'>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <img className='services' src={UploadImg} />
+                <img className='services' src={AppsImg} />
+                <img className='services' src={NotificationsImg} />
             </div>
         </div>
     )
