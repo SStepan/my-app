@@ -5,6 +5,7 @@ import SearchImg from '../images/search.svg'
 import UploadImg from '../images/upload.svg'
 import AppsImg from '../images/youtube-apps.svg'
 import NotificationsImg from '../images/notifications.svg'
+import VoiceImg from '../images/voice-search-icon.svg'
 
 export default function Header() {
     return (
@@ -20,6 +21,9 @@ export default function Header() {
                     <img className='search-img' src={SearchImg} alt="" />
                 </button>
 
+                <button className='voice-button'>
+                    <img src={VoiceImg} className='voice-img' />
+                </button>
             </div>
 
             <div className='right-section'>
