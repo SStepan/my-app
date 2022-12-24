@@ -10,27 +10,27 @@ export default function Sidebar() {
     return (
         <div className='sidebar'>
             <div className='sidebar-link'>
-                <img src={HomeImg} className />
+                <img src={HomeImg} />
                 <div>Home</div>
             </div>
             <div className='sidebar-link'>
-                <img src={ExploreImg} className />
+                <img src={ExploreImg} />
                 Explore
             </div>
             <div className='sidebar-link'>
-                <img src={SubscriptionsImg} className />
+                <img src={SubscriptionsImg} />
                 Subscriptions
             </div>
             <div className='sidebar-link'>
-                <img src={OriginalsImg} className />
+                <img src={OriginalsImg} />
                 Originals
             </div>
             <div className='sidebar-link'>
-                <img src={MusicImg} className />
+                <img src={MusicImg} />
                 Youtube Music
             </div>
             <div className='sidebar-link'>
-                <img src={LibraryImg} className />
+                <img src={LibraryImg} />
                 Library
             </div>
         </div>

@@ -1,0 +1,35 @@
+.video {
+    .thumbnail-image {
+        width: 100%;
+    }
+
+    .video-info-grid {
+        display: flex;
+        gap: 15px;
+        margin-top: 12px;
+        text-align: left;
+        
+        .channel-picture img {
+            height: 36px;
+            border-radius: 36px;
+        }
+
+        .channel-name {
+            color: #606060;
+            font-size: 12;
+            margin-top: 8px;
+        }
+
+        .stats {
+            color: #606060;
+            font-size: 12;  
+        }
+
+        .video-info {
+            .title {
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+}
