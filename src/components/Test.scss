@@ -8,6 +8,18 @@
 
 .flex-container {
     display: flex;
+    flex-direction: column;
     margin-top: 50px;
-    margin: 5px 20px
+    margin: 5px 20px;
+    height: 800px;
+    overflow: hidden auto;
+    width: 350px;
+}
+
+.messages {
+    flex: 1;
+}
+
+.spitter {
+    display: flex;
 }

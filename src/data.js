@@ -39,5 +39,36 @@ exports.videosData = [
         stats: '18M views',
         uploadTime: '4 months ago',
         linkUrl: 'https://www.youtube.com/watch?v=094y1Z2wpJg'
+    },
+    {
+        id: 5,
+        thumUrl: 'https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-5.webp',
+        title: 'Kadane\'s Algorithm to Maximum Sum Subarray Problem',
+        channelName: 'Veritasium',
+        channelPic: 'https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-4.jpeg',
+        stats: '18M views',
+        uploadTime: '4 months ago',
+        linkUrl: 'https://www.youtube.com/watch?v=094y1Z2wpJg'
+    },
+    {
+        id: 6,
+        thumUrl: 'https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-11.webp',
+        title: 'Anything You Can Fit In The Circle I’ll Pay For',
+        channelName: 'Veritasium',
+        channelPic: 'https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-4.jpeg',
+        stats: '18M views',
+        uploadTime: '4 months ago',
+        linkUrl: 'https://www.youtube.com/watch?v=094y1Z2wpJg'
+    },
+
+    {
+        id: 7,
+        thumUrl: 'https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-9.webp',
+        title: 'Why Planes Don\'t Fly Over Tibet',
+        channelName: 'Veritasium',
+        channelPic: 'https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-4.jpeg',
+        stats: '18M views',
+        uploadTime: '4 months ago',
+        linkUrl: 'https://www.youtube.com/watch?v=094y1Z2wpJg'
     }
 ]

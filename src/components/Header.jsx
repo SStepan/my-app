@@ -29,7 +29,11 @@ export default function Header() {
             <div className='right-section'>
                 <img className='services' src={UploadImg} />
                 <img className='services' src={AppsImg} />
-                <img className='services' src={NotificationsImg} />
+                <div className='notification-container'>
+                    <img className='services' src={NotificationsImg} />
+                    <div className='not-count'>3</div>
+                </div>
+                
             </div>
         </div>
     )

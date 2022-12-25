@@ -54,6 +54,10 @@
 
         .search-button {
             border: 1px solid #cccccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
 
             padding: 0;
             margin: 0;
@@ -68,6 +72,10 @@
                 height: 24px; 
             }
         }
+
+        .search-button:hover {
+            background-color: #c6c6c6;
+        } 
 
         .voice-button {
             height: 40px;
@@ -94,6 +102,23 @@
 
         .services {
             height: 24px;
+        }
+
+        .notification-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            .not-count {
+                position: absolute;
+                top: -3px;
+                right: -5px;
+                font-size: 10px;
+                background-color: #cc0000;
+                padding: 0 5px;
+                border-radius: 50px;
+                color: white;
+            }
         }
     }
 }
