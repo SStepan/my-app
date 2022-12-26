@@ -1,25 +1,32 @@
-.contrainer {
-    margin-top: 60px;
-    display: grid;
-    grid-template-columns: 100px 100px;
-    row-gap: 20px;
-    column-gap: 10px;
+.container {
+    
+    display: flex;
+    gap: 15px;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin: 5px 20px;
-    height: 800px;
-    overflow: hidden auto;
+.select-item {
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.05);
+    line-height: 20px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 12px;
+    border-radius: 8px;
+}
+
+.slider {
     width: 350px;
+    overflow: hidden;
 }
 
-.messages {
-    flex: 1;
-}
-
-.spitter {
+.component {
     display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.slide-button {
+    margin-left: 15px;
 }

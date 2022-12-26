@@ -1,84 +1,49 @@
+import React from 'react';
 import './Test.scss'
 
 export default function Test() {
+
+    const [dice, setDice] = React.useState(100)
+
+    var slideFunc = () => {
+        
+    }
+
     return (
-        <div className='spitter'>
-            <div className="flex-container">
-                <div style={{ backgroundColor: "lightpink"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-                <div style={{ backgroundColor: "lightblue"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                    <p>dasdaczxc</p>
-                </div>
+        <div className="component">
 
-                <div style={{ backgroundColor: "lightseagreen"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-                <div style={{ backgroundColor: "lightblue"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-                <div style={{ backgroundColor: "lightseagreen"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-
-                <div style={{ backgroundColor: "lightblue"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-
-                <div style={{ backgroundColor: "lightseagreen"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-                <div style={{ backgroundColor: "lightblue"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-                <div style={{ backgroundColor: "lightseagreen"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-                <div style={{ backgroundColor: "lightblue"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-
-                <div style={{ backgroundColor: "lightseagreen"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-                <div style={{ backgroundColor: "lightblue"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-                <div style={{ backgroundColor: "lightseagreen"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-                <div style={{ backgroundColor: "lightblue"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-                <div style={{ backgroundColor: "lightseagreen"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
-                </div>
-
-                <div style={{ backgroundColor: "lightblue"}}>
-                    dasdas
-                    <p>dasdaczxc</p>
+            <div className="slider">
+                <div className='container'>
+                    <div className='select-item'>
+                        NoCopyrightSounds {dice}
+                    </div>
+                    <div className='select-item'>
+                        Watched
+                    </div>
+                    <div className='select-item'>
+                        Related
+                    </div>
+                    <div className='select-item'>
+                        Recently uploaded
+                    </div>
+                    <div className='select-item'>
+                        NoCopyrightSounds
+                    </div>
+                    <div className='select-item'>
+                        Watched
+                    </div>
+                    <div className='select-item'>
+                        Related
+                    </div>
+                    <div className='select-item'>
+                        Recently uploaded
+                    </div>
                 </div>
             </div>
 
-            <div className="messages">
-                hello
-            </div>
+            <button onClick={() => } className='slide-button'>
+                scroll
+            </button>
         </div>
     );
 }
