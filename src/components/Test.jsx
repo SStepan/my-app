@@ -1,19 +1,26 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Test.scss'
 
 export default function Test() {
 
-    const [dice, setDice] = React.useState(100)
+    const [dice, setDice] = React.useState(0)
+    const [width, setWidth] = React.useState(0)
 
     var slideFunc = () => {
-        
+        setDice((oldDice) => oldDice + 50)
+        console.log('translate: ' + dice);
+        setWidth(ref.current.offsetWidth);
+        console.log('offsetWidth: ' + ref.current.offsetWidth);
+        console.log(ref)
     }
 
+    const ref = useRef();
+   
     return (
         <div className="component">
 
             <div className="slider">
-                <div className='container'>
+                <div className='container' ref={ref} style={{transform:`translateX(-${dice}px)`}}>
                     <div className='select-item'>
                         NoCopyrightSounds {dice}
                     </div>
@@ -41,9 +48,13 @@ export default function Test() {
                 </div>
             </div>
 
-            <button onClick={() => } className='slide-button'>
+            
+
+            <button onClick={() => slideFunc()} className='slide-button'>
                 scroll
             </button>
+            <p>width {width}</p>
         </div>
+        
     );
 }
